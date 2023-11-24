@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Colour Palette Generator </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+<h1 class="title">Random Palette Generator</h1>
+<label class="rotate-label" for="rotate">Rotate hue (bottom two rows):</label>
+<input id="rotate" type="number" value="90" min="15" max="360"/>
+<div class="palette">
+  <div class="single">
+    <div id="color1"></div>
+    <div class="hex"></div>
+  </div>
+  <div class="single">
+    <div id="color2"></div>
+    <div class="hex"></div>
+  </div>
+  <div class="single">
+    <div id="color3"></div>
+    <div class="hex"></div>
+  </div>
+</div>
+<div class="palette">
+  <div class="single">
+    <div id="color4"></div>
+    <div class="hex"></div>
+  </div>
+  <div class="single">
+    <div id="color5"></div>
+    <div class="hex"></div>
+  </div>
+  <div class="single">
+    <div id="color6"></div>
+    <div class="hex"></div>
+  </div>
+</div>
+<div class="palette">
+  <div class="single">
+    <div id="color7"></div>
+    <div class="hex"></div>
+  </div>
+  <div class="single">
+    <div id="color8"></div>
+    <div class="hex"></div>
+  </div>
+  <div class="single">
+    <div id="color9"></div>
+    <div class="hex"></div>
+  </div>
+</div>
+<p class="instructions">Hit [<kbd class="key1">Space</kbd>] for a new palette<br>Hit [<kbd class="key2">e</kbd>] to toggle background color</p>
+  <script src="script.js"></script>
+</body>
+</html>
